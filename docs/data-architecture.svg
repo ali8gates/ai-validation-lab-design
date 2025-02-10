@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="830" viewBox="0 0 1280 830" font-family="Helvetica, Arial, sans-serif">
+<rect width="1280" height="830" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#111827">Evaluation Data Architecture</text>
+<text x="40" y="74" font-size="14" fill="#6b7280">Conceptual view. Generic component names, no vendor detail, no protected data.</text>
+<rect x="40" y="100" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="124" font-size="12.5" font-weight="700" fill="#9ca3af">1. EVALUATION DATA</text>
+<rect x="70" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Multi Site</text>
+<text x="168" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Clinical Data</text>
+<rect x="287" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Registry Linked</text>
+<text x="385" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Cohorts</text>
+<rect x="505" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Imaging and Signal</text>
+<text x="602" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Sets</text>
+<rect x="722" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Claims and</text>
+<text x="820" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Utilization</text>
+<rect x="940" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="175" font-size="13.5" fill="#111827" text-anchor="middle">Site Metadata</text>
+<rect x="40" y="232" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="256" font-size="12.5" font-weight="700" fill="#9ca3af">2. ACCESS PATTERN</text>
+<rect x="70" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="298" font-size="13.5" fill="#111827" text-anchor="middle">De-Identified</text>
+<text x="168" y="316" font-size="13.5" fill="#111827" text-anchor="middle">Extract</text>
+<rect x="287" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="307" font-size="13.5" fill="#111827" text-anchor="middle">In Place Analysis</text>
+<rect x="505" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Federated Run</text>
+<rect x="722" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Access Approval</text>
+<rect x="940" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Audit Log</text>
+<rect x="40" y="364" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="388" font-size="12.5" font-weight="700" fill="#9ca3af">3. PREPARATION</text>
+<rect x="70" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Common Data Model</text>
+<rect x="287" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Cohort Builder</text>
+<rect x="505" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="430" font-size="13.5" fill="#111827" text-anchor="middle">Missingness</text>
+<text x="602" y="448" font-size="13.5" fill="#111827" text-anchor="middle">Handling</text>
+<rect x="722" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Versioned Snapshot</text>
+<rect x="940" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Protocol Binding</text>
+<rect x="40" y="496" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="520" font-size="12.5" font-weight="700" fill="#9ca3af">4. EVALUATION ENGINE</text>
+<rect x="70" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Metric Library</text>
+<rect x="287" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Subgroup Engine</text>
+<rect x="505" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Calibration Module</text>
+<rect x="722" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Drift Detection</text>
+<rect x="940" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Impact Model</text>
+<rect x="40" y="628" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="652" font-size="12.5" font-weight="700" fill="#9ca3af">5. OUTPUT</text>
+<rect x="70" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Results Store</text>
+<rect x="287" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Report Generator</text>
+<rect x="505" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Reviewer Workspace</text>
+<rect x="722" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="694" font-size="13.5" fill="#111827" text-anchor="middle">Monitoring</text>
+<text x="820" y="712" font-size="13.5" fill="#111827" text-anchor="middle">Dashboard</text>
+<rect x="940" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Archive for Re-Run</text>
+<line x1="602" y1="200" x2="602" y2="263" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,272 598,263 608,263" fill="#111827"/>
+<line x1="602" y1="332" x2="602" y2="395" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,404 598,395 608,395" fill="#111827"/>
+<line x1="602" y1="464" x2="602" y2="527" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,536 598,527 608,527" fill="#111827"/>
+<line x1="602" y1="596" x2="602" y2="659" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,668 598,659 608,659" fill="#111827"/>
+<text x="40" y="806" font-size="12" fill="#9ca3af">Data stays where it is governed. The protocol, the code, and the results travel.</text>
+</svg>

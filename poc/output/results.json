@@ -1,0 +1,274 @@
+{
+  "study_id": "cv-risk-validation-template-001",
+  "data_type": "synthetic",
+  "n": 1200,
+  "threshold": 0.35,
+  "metrics": {
+    "sensitivity": 0.5509641873278237,
+    "specificity": 0.7144563918757467,
+    "ppv": 0.45558086560364464,
+    "npv": 0.78580814717477,
+    "true_positives": 200.0,
+    "false_positives": 239.0,
+    "true_negatives": 598.0,
+    "false_negatives": 163.0,
+    "n": 1200.0,
+    "prevalence": 0.3025,
+    "auroc": 0.6757868683577384,
+    "pr_auc": 0.4604563551790886,
+    "brier_score": 0.20207783103554844,
+    "expected_calibration_error": 0.06596035722150001,
+    "calibration_intercept": -0.36938399353769746,
+    "calibration_slope": 0.527617648121262
+  },
+  "confidence_intervals": {
+    "auroc": {
+      "lower": 0.6449856539826075,
+      "upper": 0.7106654154379273
+    },
+    "pr_auc": {
+      "lower": 0.4232301790762824,
+      "upper": 0.5149049996886242
+    },
+    "sensitivity": {
+      "lower": 0.5073271769361981,
+      "upper": 0.5995097127985872
+    },
+    "specificity": {
+      "lower": 0.6826184390590042,
+      "upper": 0.7444207839976856
+    },
+    "ppv": {
+      "lower": 0.4134607527304156,
+      "upper": 0.5069783819194236
+    },
+    "npv": {
+      "lower": 0.7544999743313312,
+      "upper": 0.8173153790819512
+    },
+    "brier_score": {
+      "lower": 0.18891857803292889,
+      "upper": 0.2162293490409137
+    }
+  },
+  "subgroups": [
+    {
+      "field": "sex",
+      "group": "female",
+      "n": 618,
+      "sensitivity": 0.5568181818181818,
+      "specificity": 0.7104072398190046,
+      "auroc": 0.6834507404360346,
+      "ppv": 0.4336283185840708,
+      "sensitivity_gap_vs_overall": 0.005853994490358061,
+      "auroc_gap_vs_overall": 0.007663872078296219,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "sex",
+      "group": "male",
+      "n": 582,
+      "sensitivity": 0.5454545454545454,
+      "specificity": 0.7189873417721518,
+      "auroc": 0.6681648954173155,
+      "ppv": 0.4788732394366197,
+      "sensitivity_gap_vs_overall": -0.005509641873278293,
+      "auroc_gap_vs_overall": -0.007621972940422883,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "race_group",
+      "group": "group_a",
+      "n": 503,
+      "sensitivity": 0.5319148936170213,
+      "specificity": 0.7403314917127072,
+      "auroc": 0.684201246032679,
+      "ppv": 0.4437869822485207,
+      "sensitivity_gap_vs_overall": -0.01904929371080244,
+      "auroc_gap_vs_overall": 0.008414377674940576,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "race_group",
+      "group": "group_b",
+      "n": 316,
+      "sensitivity": 0.5360824742268041,
+      "specificity": 0.7031963470319634,
+      "auroc": 0.673492444569976,
+      "ppv": 0.4444444444444444,
+      "sensitivity_gap_vs_overall": -0.0148817131010196,
+      "auroc_gap_vs_overall": -0.0022944237877623452,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "race_group",
+      "group": "group_c",
+      "n": 226,
+      "sensitivity": 0.578125,
+      "specificity": 0.7530864197530864,
+      "auroc": 0.7197145061728395,
+      "ppv": 0.4805194805194805,
+      "sensitivity_gap_vs_overall": 0.027160812672176293,
+      "auroc_gap_vs_overall": 0.04392763781510112,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "race_group",
+      "group": "group_d",
+      "n": 155,
+      "sensitivity": 0.5901639344262295,
+      "specificity": 0.574468085106383,
+      "auroc": 0.5746424834321591,
+      "ppv": 0.47368421052631576,
+      "sensitivity_gap_vs_overall": 0.03919974709840579,
+      "auroc_gap_vs_overall": -0.10114438492557931,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "site_id",
+      "group": "site_1",
+      "n": 544,
+      "sensitivity": 0.5348837209302325,
+      "specificity": 0.7258064516129032,
+      "auroc": 0.689031632908227,
+      "ppv": 0.4742268041237113,
+      "sensitivity_gap_vs_overall": -0.016080466397591198,
+      "auroc_gap_vs_overall": 0.013244764550488619,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "site_id",
+      "group": "site_2",
+      "n": 424,
+      "sensitivity": 0.5583333333333333,
+      "specificity": 0.7171052631578947,
+      "auroc": 0.665296052631579,
+      "ppv": 0.43790849673202614,
+      "sensitivity_gap_vs_overall": 0.007369146005509641,
+      "auroc_gap_vs_overall": -0.010490815726159397,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "site_id",
+      "group": "site_3",
+      "n": 232,
+      "sensitivity": 0.5774647887323944,
+      "specificity": 0.6832298136645962,
+      "auroc": 0.6634590149593211,
+      "ppv": 0.44565217391304346,
+      "sensitivity_gap_vs_overall": 0.026500601404570667,
+      "auroc_gap_vs_overall": -0.012327853398417243,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "rural_flag",
+      "group": "rural",
+      "n": 306,
+      "sensitivity": 0.6238532110091743,
+      "specificity": 0.6700507614213198,
+      "auroc": 0.7058631770129931,
+      "ppv": 0.5112781954887218,
+      "sensitivity_gap_vs_overall": 0.07288902368135064,
+      "auroc_gap_vs_overall": 0.03007630865525468,
+      "small_n": false,
+      "below_sensitivity_floor": false,
+      "flag": "none"
+    },
+    {
+      "field": "rural_flag",
+      "group": "urban",
+      "n": 894,
+      "sensitivity": 0.5196850393700787,
+      "specificity": 0.728125,
+      "auroc": 0.6618540846456692,
+      "ppv": 0.43137254901960786,
+      "sensitivity_gap_vs_overall": -0.031279147957745,
+      "auroc_gap_vs_overall": -0.013932783712069186,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "payer",
+      "group": "coverage_a",
+      "n": 581,
+      "sensitivity": 0.5266272189349113,
+      "specificity": 0.7038834951456311,
+      "auroc": 0.6486614580341242,
+      "ppv": 0.4218009478672986,
+      "sensitivity_gap_vs_overall": -0.02433696839291244,
+      "auroc_gap_vs_overall": -0.027125410323614152,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "payer",
+      "group": "coverage_b",
+      "n": 384,
+      "sensitivity": 0.5826086956521739,
+      "specificity": 0.7286245353159851,
+      "auroc": 0.6997898820106676,
+      "ppv": 0.4785714285714286,
+      "sensitivity_gap_vs_overall": 0.03164450832435017,
+      "auroc_gap_vs_overall": 0.024003013652929228,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    },
+    {
+      "field": "payer",
+      "group": "coverage_c",
+      "n": 235,
+      "sensitivity": 0.5569620253164557,
+      "specificity": 0.717948717948718,
+      "auroc": 0.6976630963972736,
+      "ppv": 0.5,
+      "sensitivity_gap_vs_overall": 0.00599783798863196,
+      "auroc_gap_vs_overall": 0.02187622803953526,
+      "small_n": false,
+      "below_sensitivity_floor": true,
+      "flag": "below_sensitivity_floor"
+    }
+  ],
+  "drift": {
+    "psi": 0.014271104226847832,
+    "ks_statistic": 0.03500000000000003,
+    "ks_pvalue": 0.44775241290118895,
+    "baseline_calibration_slope": 0.5367823908134922,
+    "current_calibration_slope": 0.527617648121262,
+    "calibration_slope_decay": -0.009164742692230221,
+    "status": "alert",
+    "alert_reasons": [
+      "calibration_slope"
+    ]
+  },
+  "impact": {
+    "label": "Illustrative only. These are synthetic decision estimates, not observed outcomes.",
+    "alerts_per_1000": 365.83333333333337,
+    "true_positives_per_1000": 166.66666666666669,
+    "false_positives_per_1000": 199.16666666666669,
+    "avoided_events_per_1000": 8.333333333333334,
+    "event_value_units_per_1000": 83.33333333333334,
+    "alert_management_units_per_1000": 36.583333333333336,
+    "net_value_units_per_1000": 46.75000000000001
+  }
+}

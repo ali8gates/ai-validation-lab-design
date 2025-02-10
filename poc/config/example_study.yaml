@@ -1,0 +1,44 @@
+study_id: cv-risk-validation-template-001
+model_name: example-cardiovascular-risk-model
+intended_use: Support review of adults who may benefit from follow-up cardiovascular risk assessment. It is not a diagnosis or treatment recommendation.
+cohort:
+  source: synthetic cardiovascular cohort generated locally
+  n_patients: 1200
+  seed: 42
+  inclusion:
+    - Adults age 40 to 84 years
+    - At least one synthetic encounter
+  exclusion:
+    - Missing synthetic model score
+    - Records outside the age range
+primary_metrics:
+  - auroc
+  - pr_auc
+  - sensitivity
+  - specificity
+  - ppv
+  - npv
+  - brier_score
+subgroup_fields:
+  - sex
+  - race_group
+  - site_id
+  - rural_flag
+  - payer
+thresholds:
+  decision: 0.35
+  subgroup_sensitivity_floor: 0.60
+  minimum_subgroup_n: 50
+  psi_alert: 0.20
+  ks_pvalue_alert: 0.05
+  calibration_slope_min: 0.80
+  calibration_slope_max: 1.20
+monitoring_cadence: quarterly
+bootstrap_iterations: 200
+drift_note: Synthetic baseline uses a different local random seed for template demonstration.
+drift:
+  baseline_seed: 7
+impact:
+  avoided_event_fraction_per_true_positive: 0.05
+  event_cost_units: 10.0
+  alert_management_cost_units: 0.10

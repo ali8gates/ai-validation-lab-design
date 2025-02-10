@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="962" viewBox="0 0 1280 962" font-family="Helvetica, Arial, sans-serif">
+<rect width="1280" height="962" fill="#ffffff"/>
+<text x="40" y="48" font-size="26" font-weight="700" fill="#111827">Model Validation Pipeline</text>
+<text x="40" y="74" font-size="14" fill="#6b7280">Conceptual process flow. No partner names, no contract terms, no protected data.</text>
+<rect x="40" y="100" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="124" font-size="12.5" font-weight="700" fill="#9ca3af">1. INTAKE</text>
+<rect x="70" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="175" font-size="13.5" fill="#111827" text-anchor="middle">Submission Package</text>
+<rect x="287" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Intended Use</text>
+<text x="385" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Statement</text>
+<rect x="505" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="175" font-size="13.5" fill="#111827" text-anchor="middle">Target Population</text>
+<rect x="722" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="166" font-size="13.5" fill="#111827" text-anchor="middle">Scope and Tier</text>
+<text x="820" y="184" font-size="13.5" fill="#111827" text-anchor="middle">Selection</text>
+<rect x="940" y="140" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="175" font-size="13.5" fill="#111827" text-anchor="middle">Feasibility Check</text>
+<rect x="40" y="232" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="256" font-size="12.5" font-weight="700" fill="#9ca3af">2. STUDY DESIGN</text>
+<rect x="70" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Cohort Definition</text>
+<rect x="287" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Endpoint Selection</text>
+<rect x="505" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Subgroup Plan</text>
+<rect x="722" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Metric Thresholds</text>
+<rect x="940" y="272" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="307" font-size="13.5" fill="#111827" text-anchor="middle">Analysis Protocol</text>
+<rect x="40" y="364" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="388" font-size="12.5" font-weight="700" fill="#9ca3af">3. DATA PREPARATION</text>
+<rect x="70" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Cohort Extraction</text>
+<rect x="287" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="430" font-size="13.5" fill="#111827" text-anchor="middle">Inclusion and</text>
+<text x="385" y="448" font-size="13.5" fill="#111827" text-anchor="middle">Exclusion</text>
+<rect x="505" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Quality Checks</text>
+<rect x="722" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Held Out Split</text>
+<rect x="940" y="404" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="439" font-size="13.5" fill="#111827" text-anchor="middle">Environment Lock</text>
+<rect x="40" y="496" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="520" font-size="12.5" font-weight="700" fill="#9ca3af">4. EVALUATION RUN</text>
+<rect x="70" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Discrimination</text>
+<rect x="287" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Calibration</text>
+<rect x="505" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="562" font-size="13.5" fill="#111827" text-anchor="middle">Subgroup</text>
+<text x="602" y="580" font-size="13.5" fill="#111827" text-anchor="middle">Performance</text>
+<rect x="722" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Site Variation</text>
+<rect x="940" y="536" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="571" font-size="13.5" fill="#111827" text-anchor="middle">Sensitivity Checks</text>
+<rect x="40" y="628" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="652" font-size="12.5" font-weight="700" fill="#9ca3af">5. REVIEW</text>
+<rect x="70" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Statistical Review</text>
+<rect x="287" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Clinical Review</text>
+<rect x="505" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="694" font-size="13.5" fill="#111827" text-anchor="middle">Limitations</text>
+<text x="602" y="712" font-size="13.5" fill="#111827" text-anchor="middle">Register</text>
+<rect x="722" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="694" font-size="13.5" fill="#111827" text-anchor="middle">Acceptance</text>
+<text x="820" y="712" font-size="13.5" fill="#111827" text-anchor="middle">Decision</text>
+<rect x="940" y="668" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="703" font-size="13.5" fill="#111827" text-anchor="middle">Dissent Recorded</text>
+<rect x="40" y="760" width="1120" height="118" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="56" y="784" font-size="12.5" font-weight="700" fill="#9ca3af">6. REPORT AND FOLLOW UP</text>
+<rect x="70" y="800" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="168" y="835" font-size="13.5" fill="#111827" text-anchor="middle">Validation Report</text>
+<rect x="287" y="800" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="385" y="835" font-size="13.5" fill="#111827" text-anchor="middle">Impact Analysis</text>
+<rect x="505" y="800" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="602" y="826" font-size="13.5" fill="#111827" text-anchor="middle">Publication of</text>
+<text x="602" y="844" font-size="13.5" fill="#111827" text-anchor="middle">Findings</text>
+<rect x="722" y="800" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="820" y="826" font-size="13.5" fill="#111827" text-anchor="middle">Monitoring</text>
+<text x="820" y="844" font-size="13.5" fill="#111827" text-anchor="middle">Schedule</text>
+<rect x="940" y="800" width="195" height="60" rx="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="1037" y="835" font-size="13.5" fill="#111827" text-anchor="middle">Re-Review Trigger</text>
+<line x1="602" y1="200" x2="602" y2="263" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,272 598,263 608,263" fill="#111827"/>
+<line x1="602" y1="332" x2="602" y2="395" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,404 598,395 608,395" fill="#111827"/>
+<line x1="602" y1="464" x2="602" y2="527" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,536 598,527 608,527" fill="#111827"/>
+<line x1="602" y1="596" x2="602" y2="659" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,668 598,659 608,659" fill="#111827"/>
+<line x1="602" y1="728" x2="602" y2="791" stroke="#111827" stroke-width="1.6"/>
+<polygon points="602,800 598,791 608,791" fill="#111827"/>
+<text x="40" y="938" font-size="12" fill="#9ca3af">Every run is reproducible from the protocol and the locked environment. Review outcome is recorded whether it passes or not.</text>
+</svg>
