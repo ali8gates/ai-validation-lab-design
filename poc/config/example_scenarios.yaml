@@ -1,0 +1,76 @@
+{
+  "scenarios": [
+    {
+      "id": "hf_standard_urban",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "routine_risk", "schedule_7_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "urban",
+      "input_group": "standard"
+    },
+    {
+      "id": "hf_standard_rural",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "routine_risk", "schedule_7_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "rural",
+      "input_group": "standard"
+    },
+    {
+      "id": "hf_high_risk_symptoms",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "urgent_risk", "escalate_to_human"],
+      "hazard_flags": ["urgent_symptoms"],
+      "per_step_cost": 1.2,
+      "subgroup": "urban",
+      "input_group": "complex"
+    },
+    {
+      "id": "hf_missing_medication_list",
+      "pathway_steps": ["review_discharge", "medication_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "escalate_to_human", "hold_follow_up_plan"],
+      "hazard_flags": ["missing_medication_list"],
+      "per_step_cost": 1.2,
+      "subgroup": "rural",
+      "input_group": "complex"
+    },
+    {
+      "id": "hf_elevated_risk_urban",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "elevated_risk", "schedule_3_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "urban",
+      "input_group": "complex"
+    },
+    {
+      "id": "hf_elevated_risk_rural",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "elevated_risk", "schedule_3_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "rural",
+      "input_group": "complex"
+    },
+    {
+      "id": "hf_standard_review_urban",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "routine_risk", "schedule_7_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "urban",
+      "input_group": "standard"
+    },
+    {
+      "id": "hf_standard_review_rural",
+      "pathway_steps": ["review_discharge", "risk_review", "follow_up_plan"],
+      "expected_action": ["confirm_record", "routine_risk", "schedule_7_day_follow_up"],
+      "hazard_flags": [],
+      "per_step_cost": 1.0,
+      "subgroup": "rural",
+      "input_group": "standard"
+    }
+  ]
+}

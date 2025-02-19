@@ -102,7 +102,10 @@ def run(config: dict[str, Any], data_path: str | None = None) -> dict[str, Any]:
 def main() -> None:
     """Parse inputs and write JSON plus markdown report."""
     parser = argparse.ArgumentParser(description="Run a local model validation template")
-    parser.add_argument("--config", required=True, help="Path to study YAML")
+    parser.add_argument(
+        "--config", default=str(ROOT / "config" / "example_study.yaml"),
+        help="Path to study YAML",
+    )
     parser.add_argument("--data", help="Optional CSV with label, model_score, and subgroup columns")
     parser.add_argument("--output", default=str(ROOT / "output"), help="Directory for generated files")
     args = parser.parse_args()

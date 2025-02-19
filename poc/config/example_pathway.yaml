@@ -1,0 +1,48 @@
+{
+  "pathway_id": "synthetic-hf-follow-up-001",
+  "guideline_reference": "Example heart failure post-discharge follow-up reference",
+  "cohort": {
+    "inclusion_rules": [
+      {
+        "id": "adult_record",
+        "field": "age",
+        "operator": "gte",
+        "value": 18
+      },
+      {
+        "id": "recent_discharge",
+        "field": "days_since_discharge",
+        "operator": "lte",
+        "value": 14
+      },
+      {
+        "id": "heart_failure_record",
+        "field": "heart_failure",
+        "operator": "eq",
+        "value": 1
+      }
+    ],
+    "exclusion_rules": [
+      {
+        "id": "closed_follow_up",
+        "field": "follow_up_open",
+        "operator": "is_false"
+      }
+    ]
+  },
+  "decision_points": [
+    {
+      "id": "discharge_review",
+      "description": "Confirm the recent discharge record."
+    },
+    {
+      "id": "risk_stratification",
+      "description": "Classify follow-up urgency from the available record."
+    },
+    {
+      "id": "follow_up_plan",
+      "description": "Set follow-up or route the record for human review."
+    }
+  ],
+  "outcome_window": "30 days after discharge"
+}
