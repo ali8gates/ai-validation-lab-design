@@ -118,6 +118,7 @@ See [poc/README.md](poc/README.md) for what each module covers.
 - Designed the data architecture around access patterns rather than data movement, since the governance constraint, not the compute, is what decides whether a study can run.
 - Set the reproducibility requirement: locked protocol, locked environment, archived results, re-runnable on demand. A validation body that cannot reproduce its own results has no standing.
 - Wrote the evaluation scaffold that turned the concept into something an engineer could pick up and extend.
+- Led the engagement across roles, discovery, product, architecture, hands on engineering, and go to market. See [how I lead an engagement](docs/how-i-lead-an-engagement.md).
 - Changed the go to market on the strength of what discovery said rather than what the plan said, moving health systems to the front and developers to the follow on.
 
 ## How to read all of this
